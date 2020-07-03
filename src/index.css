@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+html,
+body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x:hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* NAVBAR CSS */
+.myNavbar{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'MuseoModerno', cursive;
+  border: hidden;
+  box-shadow: 0 0 10px;
 }
+
+/* Main Page */
+.mainPage {
+  color: black;
+  text-align: center;
+  background-image: url("../src/images/backgroundImg1.png");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+}
+
+p {
+  padding-top: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  animation: fadeIn;
+  animation-duration: 3s
+}
+
+/* SVG Icons */
+.svgIcons:hover {
+  fill: blue;
+}
+
+/* Contact Page */ 
+.contactPage {
+  background-image: url("../src/images/backgroundImg4.png");
+  min-width: 100%;
+  min-height: 100%;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  margin-top: 10px;
+}
+
+div.wrapper {
+  width: 100%;
+}
+
+div.contentContact {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  background-color:rgba(192,192,192,0.3);
+  padding: 30px;
+  border: hidden;
+  box-shadow: 0 0 10px;
+}
+
+/* About Page */
+.aboutPage {
+  background-image: url("../src/images/backgroundImg.png");
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  margin-top: 10px;
+}
+
+div.contentAbout {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  background-color: rgba(192,192,192,0.3);
+  padding: 300px;
+  border: hidden;
+  box-shadow: 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
